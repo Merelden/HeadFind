@@ -1,0 +1,86 @@
+:root {
+    --smallText: 16px;
+    --mediumText: 20px;
+    --bigText: 24px;
+    --title: 42px
+}
+
+.search {
+    padding-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.search-input {
+    width: 1580px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px 0 10px 15px;
+}
+
+.search-btn {
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid black;
+    background: white;
+    color: black;
+    cursor: pointer;
+    transition: .4s ease;
+}
+
+.search-btn:hover {
+    background: black;
+    color: white;
+}
+
+
+/* VACANCY */
+
+.vacancy {
+    padding-top: 145px;
+    padding-inline: 100px;
+}
+
+.vacancy-header {
+    padding-bottom: 50px;
+}
+
+.vacancy__content {
+    display: grid;
+    grid-template-columns: 400px 400px 400px 400px;
+    grid-template-rows: 150px 150px;
+    gap: 30px 30px;
+    grid-auto-flow: row;
+    grid-template-areas:
+    ". . ."
+    ". . ."
+    ". . .";
+}
+
+.vacancy__content-block {
+    background: #A2CEF7;
+    border-radius: 10px;
+    padding: 19px 0 19px 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.content-block__title {
+    font-size: var(--bigText);
+}
+.content-block__price, .content-block__text {
+    font-size: var(--mediumText);
+}
+.vacancy-btn {
+    padding: 4px 10px;
+    border-radius: 5px;
+    border: 1px solid #0066FF;
+    font-size: var(--mediumText);
+    color: white;
+    cursor: pointer;
+    background: #0066FF;
+}
+
