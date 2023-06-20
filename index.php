@@ -68,5 +68,8 @@ require_once 'header.php';
         </button>
     </section>
 </main>
+<?php
+require_once 'footer.php';
+?>
 </body>
 </html>

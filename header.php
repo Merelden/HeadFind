@@ -7,8 +7,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="assets/css/header.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 </head>
 <body>
 <header class="header">
@@ -23,7 +21,7 @@
     </div>
     <div class="header-content">
         <div class="header-left">
-            <div class="header__logo">
+            <a href="index.php" class="header__logo">
                 <svg width="194" height="30" viewBox="0 0 194 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g clip-path="url(#clip0_9_110)">
                         <path d="M0 29.7099V0H7.40623V11.6054H17.2101V0H24.6163V29.7099H17.2101V18.1044H7.40623V29.7099H0Z"
@@ -48,7 +46,7 @@
                         </clipPath>
                     </defs>
                 </svg>
-            </div>
+            </a>
             <nav class="header__nav">
                 <a href="#" class="header__nav-link">Вакансии</a>
                 <a href="#" class="header__nav-link">Новости</a>
