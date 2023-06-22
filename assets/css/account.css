@@ -1,0 +1,71 @@
+@import url('main.css');
+
+.account {
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+}
+.main {
+    padding-inline: 120px;
+
+}
+.icon__img {
+    width: 220px;
+    height: 220px;
+    border-radius: 10px;
+}
+.account__title {
+    font-size: var(--title);
+    padding-bottom: 60px;
+}
+.account-content {
+    display: flex;
+    gap: 25px;
+}
+.info-list__item {
+    padding-bottom: 15px;
+    font-size: 18px;
+}
+.account__tags {
+    display: flex;
+    gap: 10px;
+}
+.tags__item {
+    padding-inline: 5px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    font-size: 14px;
+}
+.info-list__item_bold {
+    font-weight: bold;
+}
+.viewed {
+    padding-top: 80px;
+}
+.viewed-content {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+.viewed__title {
+    font-size: var(--title);
+}
+.viewed__text {
+    color: #AEAEAE;
+    font-size: var(--title);
+    font-weight: 600;
+    max-width: 558px;
+}
+.viewed__btn {
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #000;
+    background: #000;
+    max-width: 300px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+

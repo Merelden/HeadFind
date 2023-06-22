@@ -1,0 +1,21 @@
+@import url('./main.css');
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 272px;
+    background: #FFD8A1;
+    margin-top: 150px;
+    padding-inline: 120px;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.footer__nav {
+    display: flex;
+    gap: 25px;
+}

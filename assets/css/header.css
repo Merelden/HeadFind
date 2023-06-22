@@ -1,17 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-ul, li {
-    list-style-type: none;
-}
-
-a {
-    text-decoration: none;
-    color: black;
-}
+@import url('./main.css');
 
 .header {
     padding-inline: 120px;
@@ -40,23 +27,9 @@ a {
 .header__nav-link {
     color: #0066FF;
 }
-.btn-login {
-    border: 1px solid #0066FF;
-    border-radius: 5px;
-    padding: 4px 10px 4px 10px;
-    background: white;
-    color: #0066FF;
-    cursor: pointer;
-    transition: .4s ease;
-}
-.btn-login:hover {
-    background: #0066FF;
-    color: white;
-}
 .header__select {
     -webkit-appearance: none;
     -moz-appearance: none;
-    -ms-appearance: none;
     background: url("../img/arrow_down_option.png") no-repeat right center;
     outline: 0;
     appearance: none;

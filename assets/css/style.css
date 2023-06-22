@@ -1,9 +1,5 @@
-:root {
-    --smallText: 16px;
-    --mediumText: 20px;
-    --bigText: 24px;
-    --title: 42px
-}
+@import url('./main.css');
+
 
 .search {
     padding-top: 80px;
