@@ -15,7 +15,7 @@ require_once './components/header.php';
 <main class="main">
     <section class="search">
         <input type="search" class="search-input" placeholder="Поиск">
-        <button class="search-btn btn">Найти работу</button>
+        <a href="/HeadFind/vacancy.php" class="search-btn btn">Найти работу</a>
     </section>
     <section class="vacancy">
         <div class="vacancy-header">

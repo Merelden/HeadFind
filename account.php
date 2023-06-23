@@ -17,20 +17,20 @@ require_once 'components/header.php';
         <h1 class="account__title">Личный кабинет</h1>
         <div class="account-content">
             <div class="account__icon">
-                <img src="/assets/img/account_icons/sueta.jpg" alt="account_icon" class="icon__img">
+                <img src="/assets/img/account_img1.jpg" alt="account_icon" class="icon__img">
             </div>
             <div class="account__info">
                 <ul class="account__info-list">
-                    <li class="info-list__item info-list__item_bold"">Магомед Магомедов Магомедович</li>
-                    <li class="info-list__item">Возраст: Не мало</li>
-                    <li class="info-list__item">Образование: Высшее образование</li>
-                    <li class="info-list__item">Место учебы: ЧРТ</li>
-                    <li class="info-list__item">Место работы: Газпромнефть</li>
+                    <li class="info-list__item info-list__item_bold"">Аметова Алина Узбековна</li>
+                    <li class="info-list__item">Возраст: 96</li>
+                    <li class="info-list__item">Образование: Высшее кайфовое</li>
+                    <li class="info-list__item">Место учебы: ЧМЗ</li>
+                    <li class="info-list__item">Место работы: DJ кайф</li>
                 </ul>
                 <div class="account__tags">
                     <div class="tags__item">Дизайнер</div>
                     <div class="tags__item">UI/UX-разработчик</div>
-                    <div class="tags__item">Просто чел</div>
+                    <div class="tags__item">ХАЧ</div>
                 </div>
             </div>
         </div>

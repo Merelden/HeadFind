@@ -21,7 +21,7 @@
     </div>
     <div class="header-content">
         <div class="header-left">
-            <a href="/index.php" class="logo__img">
+            <a href="/HeadFind/index.php" class="logo__img">
                 <svg width="194" height="30" viewBox="0 0 194 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g clip-path="url(#clip0_9_110)">
                         <path d="M0 29.7099V0H7.40623V11.6054H17.2101V0H24.6163V29.7099H17.2101V18.1044H7.40623V29.7099H0Z"
@@ -56,7 +56,7 @@
         <div class="header-right">
             <div class="header__auth">
                 <a class="header__resume btn-login">Создать резюме</a>
-                <a href="/auth.php" class="header__login btn-login">Вход</a>
+                <a href="/HeadFind/auth.php" class="header__login btn-login">Вход</a>
             </div>
         </div>
     </div>
