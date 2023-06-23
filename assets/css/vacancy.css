@@ -1,0 +1,31 @@
+@import url('main.css');
+
+.search {
+    padding-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.search-input {
+    width: 1580px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px 0 10px 15px;
+}
+
+.search-btn {
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid black;
+    background: white;
+    color: black;
+    cursor: pointer;
+    transition: .4s ease;
+}
+
+.search-btn:hover {
+    background: black;
+    color: white;
+}
