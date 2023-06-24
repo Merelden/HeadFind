@@ -10,14 +10,14 @@
 }
 
 .search-input {
-    width: 1580px;
+    width: 1550px;
     border: 2px solid black;
     border-radius: 5px;
     padding: 10px 0 10px 15px;
 }
 
 .search-btn {
-    padding: 10px;
+    padding: 6px;
     border-radius: 5px;
     border: 2px solid black;
     background: white;

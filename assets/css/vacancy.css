@@ -29,3 +29,65 @@
     background: black;
     color: white;
 }
+
+.aside {
+    height: 100%;
+    width: 350px;
+    float: left;
+    padding: 80px 50px 0 95px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.aside-title {
+    padding-bottom: 5px;
+}
+.aside__form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.vacancy {
+    display: flex;
+    justify-content: center;
+}
+.vacancy-info {
+    padding-top: 80px;
+    max-width: 1680px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.vacancy-content {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-bottom: 20px;
+}
+.vacancy__block {
+    border: 1px solid #AEAEAE;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 0 10px -5px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 0 10px -5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px -5px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    max-width: 1455px;
+}
+.vacancy-title {
+    font-size: var(--mediumText);
+    color: #0066FF;
+}
+.vacancy-price {
+    font-size: var(--smallText);
+    font-weight: 500;
+}
+.vacancy-exp {
+    padding-top: 10px;
+}
+.controls-btn {
+    font-size: var(--smallText);
+}
+.vacancy-controls {
+    padding-bottom: 5px;
+}

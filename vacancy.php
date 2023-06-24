@@ -20,58 +20,68 @@ require_once 'components/header.php';
     <aside class="aside">
         <div class="aside__block">
             <h4 class="aside-title">Подработка</h4>
-            <div class="aside__form">
-                <div class="form__item">
+            <form class="aside__form">
+                <div class="form-item">
                     <input type="checkbox" class="form-checkbox form-input" name="firstCheckbox">
                     <label for="firstCheckbox">Временная работа</label>
                 </div>
-                <div class="form__item">
+                <div class="form-item">
                     <input type="checkbox" class="form-checkbox form-input" name="secondCheckbox">
-                    <label for="secondCheckbox">Неполный день</label>
-                </div>
-                <div class="form__item">
+                    <label for="secondCheckbox">Неполный день</label></div>
+                <div class="form-item">
                     <input type="checkbox" class="form-checkbox form-input" name="thirdCheckbox">
                     <label for="thirdCheckbox">От 4 часов в день</label>
                 </div>
-                <div class="form__item">
+                <div class="form-item">
                     <input type="checkbox" class="form-checkbox form-input" name="fourthCheckbox">
                     <label for="fourthCheckbox">Разовое задание</label>
                 </div>
-            </div>
-        </div>
-        <div class="aside__block">
-            <h4 class="aside-title">Опыт работы</h4>
-            <form action="" class="aside__form">
-                <input type="radio" class="form-radio form-input" id="firstRadio" name="radioSalary">
-                <label for="firstRadio">Не имеет значения</label>
-
-                <input type="radio" class="form-radio form-input" id="secondRadio" name="radioSalary">
-                <label for="secondRadio">от 40 000 ₽</label>
-
-                <input type="radio" class="form-radio form-input" id="thirdRadio" name="radioSalary">
-                <label for="thirdRadio">от 80 000 ₽</label>
-
-                <input type="radio" class="form-radio form-input" id="fourthRadio" name="radioSalary">
-                <label for="fourthRadio">от 120 000 ₽</label>
             </form>
         </div>
         <div class="aside__block">
             <h4 class="aside-title">Уровень дохода</h4>
             <form action="" class="aside__form">
-                <input type="radio" class="form-radio form-input" id="firstRadio" name="radioExperience">
-                <label for="firstRadio">Нет опыта</label>
-
-                <input type="radio" class="form-radio form-input" id="firstRadio" name="radioExperience">
-                <label for="firstRadio">Не имеет значения</label>
-
-                <input type="radio" class="form-radio form-input" id="secondRadio" name="radioExperience">
-                <label for="secondRadio">От 1 года до 3 лет</label>
-
-                <input type="radio" class="form-radio form-input" id="thirdRadio" name="radioExperience">
-                <label for="thirdRadio">От 3 до 6 лет</label>
-
-                <input type="radio" class="form-radio form-input" id="fourthRadio" name="radioExperience">
-                <label for="fourthRadio">Более 6 лет</label>
+                <div class="form-item">
+                    <input type="radio" class="form-radio form-input" id="firstRadio" name="radioSalary">
+                    <label for="firstRadio">Не имеет значения</label>
+                </div>
+                <div class="form-item">
+                    <input type="radio" class="form-radio form-input" id="secondRadio" name="radioSalary">
+                    <label for="secondRadio">от 40 000 ₽</label>
+                </div>
+                <div class="form-item">
+                    <input type="radio" class="form-radio form-input" id="thirdRadio" name="radioSalary">
+                    <label for="thirdRadio">от 80 000 ₽</label>
+                </div>
+                <div class="form-item">
+                    <input type="radio" class="form-radio form-input" id="fourthRadio" name="radioSalary">
+                    <label for="fourthRadio">от 120 000 ₽</label>
+                </div>
+            </form>
+        </div>
+        <div class="aside__block">
+            <h4 class="aside-title">Опыт работы</h4>
+            <form action="" class="aside__form">
+                <div class="form-item">
+                    <input type="radio" class="form-radio form-input" id="firstRadio" name="radioExperience">
+                    <label for="firstRadio">Нет опыта</label>
+                </div>
+                <div class="form-item">
+                    <input type="radio" class="form-radio form-input" id="firstRadio" name="radioExperience">
+                    <label for="firstRadio">Не имеет значения</label>
+                </div>
+                <div class="form-item">
+                    <input type="radio" class="form-radio form-input" id="secondRadio" name="radioExperience">
+                    <label for="secondRadio">От 1 года до 3 лет</label>
+                </div>
+                <div class="form-item">
+                    <input type="radio" class="form-radio form-input" id="thirdRadio" name="radioExperience">
+                    <label for="thirdRadio">От 3 до 6 лет</label>
+                </div>
+                <div class="form-item">
+                    <input type="radio" class="form-radio form-input" id="fourthRadio" name="radioExperience">
+                    <label for="fourthRadio">Более 6 лет</label>
+                </div>
             </form>
         </div>
         <div class="aside__form">
@@ -95,128 +105,140 @@ require_once 'components/header.php';
         </div>
     </aside>
     <section class="vacancy">
-        <div class="vacancy__block">
-            <div class="vacancy-content">
-                <h3 class="vacancy-title">Обрубщик</h3>
-                <span class="vacancy-price">120 000 - 300 000 ₽</span>
-                <span class="vacancy-city">Челябинск</span>
-                <p class="vacancy-exp">
-                    <img src="/assets/img/backpack.png" alt="backpack" class="vacancy-exp-img">
-                    Опыт от 1 года до 3 лет
-                </p>
+        <div class="vacancy-info">
+            <div class="vacancy__block">
+                <div class="vacancy-content">
+                    <h3 class="vacancy-title">Обрубщик</h3>
+                    <p class="vacancy-price">120 000 - 300 000 ₽</p>
+                    <p class="vacancy-city">Челябинск</p>
+                    <p class="vacancy-city">DService</p>
+                    <p class="vacancy-exp">
+                        <img src="/assets/img/backpack.png" alt="backpack" class="vacancy-exp-img">
+                        Опыт от 1 года до 3 лет
+                    </p>
+                </div>
+                <div class="vacancy-controls">
+                    <a href="" class="controls-btn btn-registration">Откликнуться</a>
+                    <a href="" class="controls-btn contacts-btn btn-registration">Показать контакты</a>
+                </div>
             </div>
-            <div class="vacancy-controls">
-                <a href="" class="controls-btn">Откликнуться</a>
-                <a href="" class="controls-btn contacts-btn">Показать контакты</a>
+            <div class="vacancy__block">
+                <div class="vacancy-content">
+                    <h3 class="vacancy-title">Сборщик заказов, подработка</h3>
+                    <p class="vacancy-price">80 000 – 105 000 ₽</p>
+                    <p class="vacancy-city">Челябинск</p>
+                    <p class="vacancy-company">ИП Грихно Георгий Александрович</p>
+                    <p class="vacancy-exp">
+                        <img src="/assets/img/backpack.png" alt="backpack" class="vacancy-exp-img">
+                        Без опыта
+                    </p>
+                </div>
+                <div class="vacancy-controls">
+                    <a href="" class="controls-btn btn-registration">Откликнуться</a>
+                    <a href="" class="controls-btn contacts-btn btn-registration">Показать контакты</a>
+                </div>
+            </div>
+            <div class="vacancy__block">
+                <div class="vacancy-content">
+                    <h3 class="vacancy-title">Менеджер по продажам</h3>
+                    <p class="vacancy-price">12 000 – 35 000 ₽</p>
+                    <p class="vacancy-city">Челябинск</p>
+                    <p class="vacancy-company">ПАО Ростелеком</p>
+                    <p class="vacancy-exp">
+                        <img src="/assets/img/backpack.png" alt="backpack" class="vacancy-exp-img">
+                        Без опыта
+                    </p>
+                </div>
+                <div class="vacancy-controls">
+                    <a href="" class="controls-btn btn-registration">Откликнуться</a>
+                    <a href="" class="controls-btn contacts-btn btn-registration">Показать контакты</a>
+                </div>
+            </div>
+            <div class="vacancy__block">
+                <div class="vacancy-content">
+                    <h3 class="vacancy-title">Пеший сборщик-курьер</h3>
+                    <p class="vacancy-price">до 62 000 ₽</p>
+                    <p class="vacancy-city">Челябинск</p>
+                    <p class="vacancy-company">СберМаркет</p>
+                    <p class="vacancy-exp">
+                        <img src="/assets/img/backpack.png" alt="backpack" class="vacancy-exp-img">
+                        Без опыта
+                    </p>
+                </div>
+                <div class="vacancy-controls">
+                    <a href="" class="controls-btn btn-registration">Откликнуться</a>
+                    <a href="" class="controls-btn contacts-btn btn-registration">Показать контакты</a>
+                </div>
+            </div>
+            <div class="vacancy__block">
+                <div class="vacancy-content">
+                    <h3 class="vacancy-title">Разнорабочий в строительную компанию</h3>
+                    <p class="vacancy-price">до 35 000 ₽</p>
+                    <p class="vacancy-city">Челябинск</p>
+                    <p class="vacancy-company">ООО ПозитивСтрой</p>
+                    <p class="vacancy-exp">
+                        <img src="/assets/img/backpack.png" alt="backpack" class="vacancy-exp-img">
+                        Без опыта
+                    </p>
+                </div>
+                <div class="vacancy-controls">
+                    <a href="" class="controls-btn btn-registration">Откликнуться</a>
+                    <a href="" class="controls-btn contacts-btn btn-registration">Показать контакты</a>
+                </div>
+            </div>
+            <div class="vacancy__block">
+                <div class="vacancy-content">
+                    <h3 class="vacancy-title">Специалист по продажам услуг</h3>
+                    <p class="vacancy-price">от 43 700 ₽</p>
+                    <p class="vacancy-city">Челябинск</p>
+                    <p class="vacancy-company">ПАО «МТС»</p>
+                    <p class="vacancy-exp">
+                        <img src="/assets/img/backpack.png" alt="backpack" class="vacancy-exp-img">
+                        Без опыта
+                    </p>
+                </div>
+                <div class="vacancy-controls">
+                    <a href="" class="controls-btn btn-registration">Откликнуться</a>
+                    <a href="" class="controls-btn contacts-btn btn-registration">Показать контакты</a>
+                </div>
+            </div>
+            <div class="vacancy__block">
+                <div class="vacancy-content">
+                    <h3 class="vacancy-title">SMM-менеджер</h3>
+                    <p class="vacancy-price">10 000 – 20 000 ₽</p>
+                    <p class="vacancy-city">Челябинск</p>
+                    <p class="vacancy-company">Maska Art Hall</p>
+                    <p class="vacancy-exp">
+                        <img src="/assets/img/backpack.png" alt="backpack" class="vacancy-exp-img">
+                        Опыт от 1 года до 3 лет
+                    </p>
+                </div>
+                <div class="vacancy-controls">
+                    <a href="" class="controls-btn btn-registration">Откликнуться</a>
+                    <a href="" class="controls-btn contacts-btn btn-registration">Показать контакты</a>
+                </div>
+            </div>
+            <div class="vacancy__block">
+                <div class="vacancy-content">
+                    <h3 class="vacancy-title">Региональный менеджер по продажам оборудования</h3>
+                    <p class="vacancy-price">60 000 – 200 000 ₽</p>
+                    <p class="vacancy-city">Челябинск</p>
+                    <p class="vacancy-company">АО Лазерные Системы</p>
+                    <p class="vacancy-exp">
+                        <img src="/assets/img/backpack.png" alt="backpack" class="vacancy-exp-img">
+                        Опыт от 1 года до 3 лет
+                    </p>
+                </div>
+                <div class="vacancy-controls">
+                    <a href="" class="controls-btn btn-registration">Откликнуться</a>
+                    <a href="" class="controls-btn contacts-btn btn-registration">Показать контакты</a>
+                </div>
             </div>
         </div>
-        <div class="vacancy__block">
-            <div class="vacancy-content">
-                <h3 class="vacancy-title">Обрубщик</h3>
-                <span class="vacancy-price">120 000 - 300 000 ₽</span>
-                <span class="vacancy-city">Челябинск</span>
-                <p class="vacancy-exp">
-                    <img src="/assets/img/backpack.png" alt="backpack" class="vacancy-exp-img">
-                    Опыт от 1 года до 3 лет
-                </p>
-            </div>
-            <div class="vacancy-controls">
-                <a href="" class="controls-btn">Откликнуться</a>
-                <a href="" class="controls-btn contacts-btn">Показать контакты</a>
-            </div>
-        </div>
-        <div class="vacancy__block">
-            <div class="vacancy-content">
-                <h3 class="vacancy-title">Обрубщик</h3>
-                <span class="vacancy-price">120 000 - 300 000 ₽</span>
-                <span class="vacancy-city">Челябинск</span>
-                <p class="vacancy-exp">
-                    <img src="/assets/img/backpack.png" alt="backpack" class="vacancy-exp-img">
-                    Опыт от 1 года до 3 лет
-                </p>
-            </div>
-            <div class="vacancy-controls">
-                <a href="" class="controls-btn">Откликнуться</a>
-                <a href="" class="controls-btn contacts-btn">Показать контакты</a>
-            </div>
-        </div>
-        <div class="vacancy__block">
-            <div class="vacancy-content">
-                <h3 class="vacancy-title">Обрубщик</h3>
-                <span class="vacancy-price">120 000 - 300 000 ₽</span>
-                <span class="vacancy-city">Челябинск</span>
-                <p class="vacancy-exp">
-                    <img src="/assets/img/backpack.png" alt="backpack" class="vacancy-exp-img">
-                    Опыт от 1 года до 3 лет
-                </p>
-            </div>
-            <div class="vacancy-controls">
-                <a href="" class="controls-btn">Откликнуться</a>
-                <a href="" class="controls-btn contacts-btn">Показать контакты</a>
-            </div>
-        </div>
-        <div class="vacancy__block">
-            <div class="vacancy-content">
-                <h3 class="vacancy-title">Обрубщик</h3>
-                <span class="vacancy-price">120 000 - 300 000 ₽</span>
-                <span class="vacancy-city">Челябинск</span>
-                <p class="vacancy-exp">
-                    <img src="/assets/img/backpack.png" alt="backpack" class="vacancy-exp-img">
-                    Опыт от 1 года до 3 лет
-                </p>
-            </div>
-            <div class="vacancy-controls">
-                <a href="" class="controls-btn">Откликнуться</a>
-                <a href="" class="controls-btn contacts-btn">Показать контакты</a>
-            </div>
-        </div>
-        <div class="vacancy__block">
-            <div class="vacancy-content">
-                <h3 class="vacancy-title">Обрубщик</h3>
-                <span class="vacancy-price">120 000 - 300 000 ₽</span>
-                <span class="vacancy-city">Челябинск</span>
-                <p class="vacancy-exp">
-                    <img src="/assets/img/backpack.png" alt="backpack" class="vacancy-exp-img">
-                    Опыт от 1 года до 3 лет
-                </p>
-            </div>
-            <div class="vacancy-controls">
-                <a href="" class="controls-btn">Откликнуться</a>
-                <a href="" class="controls-btn contacts-btn">Показать контакты</a>
-            </div>
-        </div>
-        <div class="vacancy__block">
-            <div class="vacancy-content">
-                <h3 class="vacancy-title">Обрубщик</h3>
-                <span class="vacancy-price">120 000 - 300 000 ₽</span>
-                <span class="vacancy-city">Челябинск</span>
-                <p class="vacancy-exp">
-                    <img src="/assets/img/backpack.png" alt="backpack" class="vacancy-exp-img">
-                    Опыт от 1 года до 3 лет
-                </p>
-            </div>
-            <div class="vacancy-controls">
-                <a href="" class="controls-btn">Откликнуться</a>
-                <a href="" class="controls-btn contacts-btn">Показать контакты</a>
-            </div>
-        </div>
-        <div class="vacancy__block">
-            <div class="vacancy-content">
-                <h3 class="vacancy-title">Обрубщик</h3>
-                <span class="vacancy-price">120 000 - 300 000 ₽</span>
-                <span class="vacancy-city">Челябинск</span>
-                <p class="vacancy-exp">
-                    <img src="/assets/img/backpack.png" alt="backpack" class="vacancy-exp-img">
-                    Опыт от 1 года до 3 лет
-                </p>
-            </div>
-            <div class="vacancy-controls">
-                <a href="" class="controls-btn">Откликнуться</a>
-                <a href="" class="controls-btn contacts-btn">Показать контакты</a>
-            </div>
-        </div>
-
     </section>
 </main>
+<?php
+require_once 'components/footer.php';
+?>
 </body>
 </html>
