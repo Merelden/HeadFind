@@ -17,7 +17,6 @@
 /* reg */
 
 .reg {
-    margin-top: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -29,12 +28,13 @@
     justify-content: space-evenly;
     flex-direction: column;
     gap: 70px;
+    padding-block: 60px;
 }
 
 .reg__form {
     display: flex;
     flex-direction: column;
-    gap: 60px;
+    gap: 40px;
 }
 
 .form-input {

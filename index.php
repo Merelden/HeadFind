@@ -63,9 +63,9 @@ require_once './components/header.php';
                 <p class="content-block__text">Компания - ТоповыйДизайн</p>
             </div>
         </div>
-        <button class="vacancy-btn">
+        <a href="/HeadFind/vacancy.php" class="vacancy-btn">
             Посмотреть все
-        </button>
+        </a>
     </section>
 </main>
 <?php

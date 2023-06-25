@@ -3,11 +3,13 @@
 .header {
     display: flex;
     justify-content: left;
+    align-items: center;
     padding-top: 67px;
 }
 
 .header-content {
     display: flex;
+    align-items: center;
     gap: 50px;
     padding-left: 70px;
 }

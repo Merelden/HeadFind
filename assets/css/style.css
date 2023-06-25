@@ -10,7 +10,7 @@
 }
 
 .search-input {
-    width: 1550px;
+    width: 1575px;
     border: 2px solid black;
     border-radius: 5px;
     padding: 10px 0 10px 15px;
@@ -46,7 +46,7 @@
     display: grid;
     grid-template-columns: 400px 400px 400px 400px;
     grid-template-rows: 150px 150px;
-    gap: 30px 30px;
+    gap: 40px 40px;
     grid-auto-flow: row;
     grid-template-areas:
     ". . ."

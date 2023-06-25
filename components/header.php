@@ -47,15 +47,13 @@
                     </defs>
                 </svg>
             </a>
-            <nav class="header__nav">
-                <a href="#" class="header__nav-link">Вакансии</a>
-                <a href="#" class="header__nav-link">Новости</a>
-                <a href="#" class="header__nav-link">Помощь</a>
-            </nav>
+<!--            <nav class="header__nav">-->
+<!--                <a href="/HeadFind/vacancy.php" class="header__nav-link">Вакансии</a>-->
+<!--            </nav>-->
         </div>
         <div class="header-right">
             <div class="header__auth">
-                <a class="header__resume btn-login">Создать резюме</a>
+                <a href="/HeadFind/createVacancy.php" class="header__resume btn-login">Создать вакансию</a>
                 <a href="/HeadFind/auth.php" class="header__login btn-login">Вход</a>
             </div>
         </div>

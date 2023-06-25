@@ -31,9 +31,7 @@
             </svg>
         </div>
         <nav class="footer__nav">
-            <a href="#" class="header__nav-link">Вакансии</a>
-            <a href="#" class="header__nav-link">Новости</a>
-            <a href="#" class="header__nav-link">Помощь</a>
+            <a href="/HeadFind/auth.php" class="btn-login btn-footer">Вход</a>
         </nav>
     </div>
 </footer>

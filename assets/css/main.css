@@ -30,7 +30,7 @@ body {
     border: 2px solid #0066FF;
     border-radius: 5px;
     padding: 4px 10px 4px 10px;
-    background: white;
+    background: transparent;
     color: #0066FF;
     cursor: pointer;
     transition: .4s ease;
